@@ -1,0 +1,130 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+#main-nav {
+    background-color: #333333;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Gill Sans MT", "sans-serif";
+    font-size: 25px;
+    text-space: 10px;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin: 0 50px;
+    padding: 25px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-nav li:hover, #main-nav a:hover {
+    color: #333333;
+    background-color: white;
+}
+
+/* HEADER */
+#main-header {
+    background-image: url("/images/hong-feng-GcgntG01Ibg-unsplash.jpg");
+    background-attachment: fixed;
+    padding: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* MAIN CONTENT */
+#main-content {
+    font-family: "Gill Sans MT", serif;
+    margin: 40px auto;
+    padding-top: 40px;
+}
+
+/* MAIN */
+#main-content main {
+    width: 70%;
+    float: left;
+}
+
+#main-content img {
+    width: 200px;
+}
+
+#main-content cite {
+    display: block;
+}
+
+#main-content p {
+    display: inline-block;
+    padding: 0 30px;
+    text-align: justify;
+    text-wrap: initial;
+    /*width: 100%;*/
+    /*float: left;*/
+}
+
+/* ASIDE */
+#main-content aside {
+    width: 30%;
+    float: right;
+    top: 0;
+}
+
+#main-content h2 {
+    background-color: #eeeeee;
+    padding: 20px;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#main-content li {
+    padding: 10px;
+}
+
+#main-content li:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+#main-content li strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer{
+    /*background-color: #333333;*/
+}
+#social-nav{
+    margin: 0 auto;
+}
+*{
+    clear-after: both;
+}
+#social-nav img{
+    clear: both;
+    width: 50px;
+    padding-top: 20px;
+
+}
+#social-nav ul li img{
+    width: 50px;
+    height: 50px;
+    margin: 0.75em;
+}
+#social-nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 40em;
+
+}
